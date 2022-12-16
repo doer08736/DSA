@@ -1,0 +1,4 @@
+/*
+adding element to queue is called enqueue
+removing element from the queue is called deque
+*/
