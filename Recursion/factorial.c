@@ -14,6 +14,17 @@ int main(){
 }
 
 /*
+Time Complexity:
+T(n) = T(n-1)+3 (3 for constant operation add, sub, comparison)
+T(n) = T(n-k)+k
+T(n) = T(n-n)+n (n = k)
+T(n) = T(0)+n
+T(n) = n
+
+=> O(n)
+*/
+
+/*
 eg: fact(5)
 5*fact(4) = 120 (5*24)
 4*fact(3) = 24 (4*6)
