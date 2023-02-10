@@ -1,0 +1,31 @@
+Graph theory: is the the mathematical theory of the properties and application of graph (networks)
+example: social network of friends, making combination of clothes to wear
+
+Types of graphs:
+1. undirected graph: the edges have no direction and can be traversed in both directions
+(is graph in which edges have no orientation)
+
+2. directed/digraph: is graph in which edges have orientation
+(edges in directed graph have a direction and can only be traversed in the direction specified by the arrow)
+
+3. weighted graph: in which edges have some numerical values called weight, associated with it
+(the weight represent an arbitrary value such as cost, distance, quantity, etc)
+(come in directed and undirected)
+
+4. special graph: (tree)
+tree: undirected graph with no cycles
+it is connected graph wiht N nodes and N-1 edges
+
+5. DAGs (directed acyclic graphs):
+directed graphs with no cycles
+(play imp role in representing structures with dependencies)
+
+6. Bipartite graph: is one whose vertices can be split into two independent groups U, V such that every
+edge connects betweens U and V 
+
+7. complete graph: where there is a unique edge between every pair of nodes
+a complete graph with n vertices is denoted as the graph Kn
+
+Representation of graph:
+1. adjacency matrix
+2. adjacency list
