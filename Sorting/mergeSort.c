@@ -60,3 +60,12 @@ Output:
 array before merge sort: 5 7 0 -4 84 9 39 27 1 0 
 array after merge sort: -4 0 0 1 5 7 9 27 39 84
 */
+
+/*
+Time Complexity:
+T(n) = T(n/2) + T(n/2) + n
+T(n) = 2T(n/2) + n
+T(n) = O(n*logn)
+
+=> O(n*logn)
+*/
