@@ -27,3 +27,8 @@ void main(){
 	scanf("%d", &n);
 	binarySearch(arr, size, n);
 }
+
+/*
+Time complexity:
+=> O(logn)
+*/

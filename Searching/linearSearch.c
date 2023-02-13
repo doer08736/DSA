@@ -17,3 +17,8 @@ void main(){
 	int size = sizeof(arr)/sizeof(int);
 	linearSearch(arr, size);
 }
+
+/*
+Time complexity:
+=> O(n)
+*/

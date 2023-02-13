@@ -29,3 +29,8 @@ void main(){
 	bubbleSort(arr, n);
 	displayArray(arr, n);
 }
+
+/*
+Time complexity:
+=> O(n^2)
+*/
