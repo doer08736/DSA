@@ -7,13 +7,10 @@ void displayArray(int arr[], int n){
 }
 
 void insertionSort(int arr[], int n){
+	int selected, prev;
 	for(int i=1; i<n; ++i){
-		int selected = arr[i];
-		int prev = i-1;
-		while(prev>=0 && selected<arr[prev]){
+		for(selected=arr[i], prev=i-1; prev>=0 && selected<arr[prev]; --prev)
 			arr[prev+1] = arr[prev];
-			prev--;
-		}
 		arr[prev+1] = selected;
 	}
 }		
