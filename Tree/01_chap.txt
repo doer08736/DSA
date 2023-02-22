@@ -1,0 +1,59 @@
+tree:
+-a tree is connected acyclic graph which represents a hierarchical tree structure with a set of connected nodes
+-no linear data structure
+
+applications:
+-filesystem
+-organize data
+-network routing algorithm
+
+leaf node:
+-which don't have any child
+
+depth of node:
+-no. of edges in path from root to x node
+(depth of root = 0)
+
+height of node:
+-no. of edges in longest path from x node to leaf node
+
+height of tree/depth of tree:
+-no. of edges from root to leaf node
+
+binary tree:
+-tree data in which each node has at most two child nodes which is refered to left and right node
+why is it called binary tree?
+=> since each node has at most two children like 0 and 1
+
+complete binary tree:
+-tree in which every level, except possibly the deepest, is entirely filled and as left as possible
+
+full binary tree:
+-tree in which all the nodes have either 2 or 0 child nodes
+
+level of tree:
+-level of tree counts start from 0 that is root node
+-max nodes in i level is 2^i
+(example: root node is at 0 level so 2^0 = 1 node)
+
+max nodes with height h:
+=2^0+2^2+..+2^h
+=2^(h+1)-1 OR =2^(total no. of levels) -1
+
+Representation of binary tree:
+-using array
+
+        A
+      /   \
+     B     C
+    / \   / \
+   D   E F   G
+
+[A][B][C][D][E][F][G]
+
+if any node at index i
+-left child = 2*i+1
+-right child = 2*i+2
+-parent node = floor(i/2)
+
+-using linkedlist
