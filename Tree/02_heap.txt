@@ -1,0 +1,12 @@
+heap:
+-special tree-based data structure in which the tree is a complete binary tree
+
+types:
+1. max-heap:
+-a complete binary tree in which the parent node is greater than or equal to the child node
+
+2. min-heap:
+-a complete binary tree in which the parent node is smaller than or equal to the child node
+
+heapify:
+-process of creating a heap data structure from a complete binary tree represented using an array
