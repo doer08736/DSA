@@ -1,31 +1,36 @@
 # include <stdio.h>
 
-void binarySearch(int arr[], int size, int n){
+
+void binarySearch(int arr[], int n, int key){
 	int low = 0;
-	int high = size-1;
+	int high = n-1;
 	int mid;
 	while(low<=high){
 		mid = (low+high)/2;
-		if(arr[mid]==n){
+		if(arr[mid]==key){
 			printf("Element found at index %d\n", mid);
 			return;
 		}
-		else if(arr[mid]>n){
+		else if(arr[mid]>key)
 			high = mid-1;
-		}
-		else{
+		else
 			low = mid+1;
-		}
 	}
 	printf("Element not found\n");
 }
 
 void main(){
-	int arr[] = {1, 5, 6, 22, 53};
-	int size = sizeof(arr)/sizeof(int);
-	int n;
+
+	int n, key;
+	printf("enter size: ");
 	scanf("%d", &n);
-	binarySearch(arr, size, n);
+	int arr[n];
+	for(int i=0; i<n; ++i)
+		scanf("%d", arr+i); // or &arr[i]
+
+	printf("enter key: ");
+	scanf("%d", &key);
+	binarySearch(arr, n, key);
 }
 
 /*
