@@ -1,0 +1,12 @@
+greedy algorithm:
+-constructs a solution to the problem by always making a choice that looks the best at the moment
+-works by making locally optimal choice at each step with the hope of finding a global optimal solution
+
+feasible solutions:
+-solutions that are satisfying the condition given in the problem
+
+optimal solution:
+-solution which already feasible and also giving the minimum cost/best result (there can be only one optimal solution)
+
+optimization problem:
+-problem which requires either minimum or maximum result
